@@ -1,5 +1,7 @@
 /node_modules
 
+/ssl-keys
+
 ScheduleJS.code-workspace
 
 package-lock.json
