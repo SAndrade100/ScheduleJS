@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <title>Adicionar Sala de Aula</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Informe os dados da sala de aula</h1>
+        <p></p>
+
+        <div class="innerContainer">
+            <form action="/add-classroom" method="post">
+                <label for="num">Número da sala:</label>
+                <input type="text" name="num">
+                <label for="quant">Quantidade de alunos:</label>
+                <input type="text" name="quant">
+                <label for="desc">Descrição:</label>
+                <input type="text" name="desc">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

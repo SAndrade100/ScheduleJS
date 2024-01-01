@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <title>Adicionar Professores</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Informe os dados do professor</h1>
+        <p></p>
+
+        <div class="innerContainer">
+            <form action="/add-teacher" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+                <label for="birth">Idade:</label>
+                <input type="date" id="birth">
+                <label for="graduation">Graduação:</label>
+                <input type="text" id="graduation">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
